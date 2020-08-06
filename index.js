@@ -296,7 +296,7 @@ app.get('/file/:name', async (req, res) => {
     }
   // 在雲端的話，導去220
   } else {
-    res.redirect(process.env.FTP_HOST + '/' + process.env.FTP_USER + '/' + req.params.name)
+    res.redirect('http://' + process.env.FTP_HOST + '/' + process.env.FTP_USER + '/' + req.params.name)
   }
 })
 
