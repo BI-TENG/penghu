@@ -91,7 +91,7 @@ if (process.env.DEV) {
       password: process.env.FTP_PASSWORD
     },
     destination (req, file, options, cb) {
-      cb(null, md5(file) + path.extname(file.originalname))
+      cb(null, uuid() + path.extname(file.originalname))
     }
   })
 }
