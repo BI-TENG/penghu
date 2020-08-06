@@ -116,7 +116,7 @@ export default {
         }
       }).then(response => {
         // console.log(response.data)
-        this.images = response.data.result
+        this.images.push(response.data.result[response.data.result.length - 1])
         this.file = null
         this.description = ''
       }).catch(error => {
