@@ -679,7 +679,7 @@ body {
 #reg {
   #base {
     width: 100%;
-    background: #6cced9;
+    background: url("http://220.128.133.15/s1090116/1596685141831.jpg") no-repeat bottom/cover;
     display: table;
     position: relative;
     transition: all .5s;
@@ -769,22 +769,21 @@ body {
 
   @media (max-width: 800px){
     #base {
+      display: block;
       min-height: 10vh;
       margin:7rem 0;
     }
 
+    .base > *{
+      display: inline-block;
+    }
+
     .wrapper{
-      // min-height: 5%;
       position: relative;
       top: 0;
       left: 0;
     }
 
-    // #reg1 {
-    //   display: flex;
-    //   align-items: center;
-    //   justify-content: center;
-    // }
   }
 
   @media (min-width:1000px) {
@@ -792,8 +791,24 @@ body {
 
     #base {
       min-height: 30vh;
-      margin: 10rem 0 0 0;
+      margin: 25rem 0 0 0;
     }
+
+    // #splits-box {
+    //   display: flex;
+    //   flex-wrap: nowrap;
+    //   flex-direction: row;
+    // }
+  
+    // .splits {
+    //   width: 50%;
+    //   font-size: 2rem;
+    //   font-weight: bolder;
+    //   text-align: center;
+    //   color: white;
+    //   margin: 10rem 0;
+    //   background: linear-gradient(270deg, transparent, rgba(0, 0, 0, 0.5), transparent);
+    // }
   }
 
   @media (min-width:1500px) {

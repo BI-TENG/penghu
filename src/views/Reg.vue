@@ -2,6 +2,10 @@
   <div id="reg">
     <b-container>
       <b-row id="base">
+        <!-- <b-col id="splits-box"> -->
+          <!-- <p class="splits d-none d-lg-block col-6">趕快登入，<br>開始你的旅遊趣</p>
+          <p class="splits d-none d-lg-block col-6">還沒有會員嗎？<br>加入可規畫你的澎湖行，<br>並記錄回憶</p> -->
+        <!-- </b-col> -->
         <b-col class="wrapper" :class="{move:ismove}">
           <b-col id="reg1">
             <b-form @submit="submit">
