@@ -27,6 +27,8 @@ app.use(cors({
   origin (origin, callback) {
     if (process.env.DEV) {
       callback(null, true)
+    } else if (origin === undefined) {
+      callback(null, true)
     } else if (origin.includes('github')) {
       callback(null, true)
     } else {
