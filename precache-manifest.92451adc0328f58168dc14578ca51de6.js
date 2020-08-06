@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5c8a553cdabdf9b0d0ef",
-    "url": "css/app.e980d787.css"
+    "revision": "90a95027f8c81369193f",
+    "url": "css/app.10236d2e.css"
   },
   {
     "revision": "43e0ba12fd05683c2b3d",
@@ -18,18 +18,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a07bb146e2b8c0400e37cc1fe7fb3abb",
     "url": "images/logo.png"
-  },
-  {
-    "revision": "45fa7db5169eb4d693b04d1a31561d20",
-    "url": "images/wave-bot.png"
-  },
-  {
-    "revision": "e555662a5c5a4b8b0bbaaf52699be257",
-    "url": "images/wave-mid.png"
-  },
-  {
-    "revision": "f288649f26ee7e72bfa536893d7644f8",
-    "url": "images/wave-top.png"
   },
   {
     "revision": "ef9fdbdac469acf011ea22081f337132",
@@ -720,12 +708,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "images/𩵺鯉灣遊憩區.jpg"
   },
   {
-    "revision": "24247cbfd3004cefc6c728c3ff419fc5",
+    "revision": "98f93f91f1376ff031e23a6738deaa4e",
     "url": "index.html"
   },
   {
-    "revision": "a6e1e70c16b82887088f",
-    "url": "js/activity.5ac2ccc0.js"
+    "revision": "e52ec00bf5ec67c67162",
+    "url": "js/activity.4ade6428.js"
   },
   {
     "revision": "cc26488aa9ebed9d49a0",
@@ -736,8 +724,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/album~planning.a53da735.js"
   },
   {
-    "revision": "5c8a553cdabdf9b0d0ef",
-    "url": "js/app.aa888a55.js"
+    "revision": "90a95027f8c81369193f",
+    "url": "js/app.0f00f01c.js"
   },
   {
     "revision": "706041d5d3a6b876b077",
@@ -768,8 +756,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/qimei.35b532d2.js"
   },
   {
-    "revision": "a990d5e21b178a214455",
-    "url": "js/reg.d155380b.js"
+    "revision": "4eccacc5e674abe55177",
+    "url": "js/reg.36eff5eb.js"
   },
   {
     "revision": "0d2058abb34a7f64ecce",
