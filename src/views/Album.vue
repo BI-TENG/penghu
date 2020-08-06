@@ -116,7 +116,15 @@ export default {
         }
       }).then(response => {
         // console.log(response.data)
-        this.images.push(response.data.result[response.data.result.length - 1])
+        this.images = response.data.result.map(d => {
+          return {
+            title: d.description,
+            src: process.env.VUE_APP_APIURL + '/file/' + d.name,
+            _id: d._id,
+            edit: false,
+            model: d.name
+          }
+        })
         this.file = null
         this.description = ''
       }).catch(error => {
